@@ -1,0 +1,14 @@
+name: audio-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipywidgets
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - librosa
+  - pydub
+  - ffmpeg       # conda-forge package
