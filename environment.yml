@@ -12,3 +12,4 @@ dependencies:
   - librosa
   - pydub
   - ffmpeg       # conda-forge package
+  # ensure librosa is installed
