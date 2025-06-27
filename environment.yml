@@ -2,18 +2,18 @@ name: audio-tutorial
 channels:
   - conda-forge
 dependencies:
-  # minimal Conda installs
+  # minimal Conda-level packages
   - python=3.10
   - pip
-  - ffmpeg       # system‐level package from conda-forge
+  - ffmpeg       # from conda-forge
 
-  # now pip-install the rest:
+  # now pip-install everything else
   - pip:
-    - jupyterlab
-    - ipywidgets
-    - numpy
-    - scipy
-    - matplotlib
-    - pandas
-    - librosa
-    - pydub
+      - jupyterlab
+      - ipywidgets
+      - numpy
+      - scipy
+      - matplotlib
+      - pandas
+      - librosa
+      - pydub
