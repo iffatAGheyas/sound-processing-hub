@@ -9,7 +9,8 @@ dependencies:
   - scipy
   - matplotlib
   - pandas
-  - librosa
-  - pydub
-  - ffmpeg       # conda-forge package
-  # ensure librosa is installed
+  - ffmpeg           # conda package
+  - pip
+  - pip:
+    - librosa
+    - pydub
