@@ -1,2 +1,2 @@
-echo "---- postBuild: installing pip‐only packages ----"
+echo "---- postBuild: installing pip-only packages ----"
 pip install numpy scipy matplotlib pandas librosa pydub ipywidgets
