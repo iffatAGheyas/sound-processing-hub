@@ -6,7 +6,7 @@ dependencies:
   # Base Python + FFmpeg (for pydub)
   - python=3.12.4
   - ffmpeg
-  - pip
+  - pip=25.1.1
 
   # Python packages installed via pip, pinned for reproducibility
   - pip:

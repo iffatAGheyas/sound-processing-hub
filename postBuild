@@ -1,2 +1,0 @@
-echo "----> postBuild: installing pip-only packages"
-pip install --upgrade numpy scipy matplotlib pandas librosa pydub ipywidgets
